@@ -1,0 +1,23 @@
+{
+  "name": "kamilas_todo",
+  "description": "my horrible TODO manager",
+  "version": "0.0.1",
+  "author": {
+    "name": "Kamila Součková",
+    "email": "kamila@vesmir.sk",
+    "url": "http://anotherkamila.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anotherkamila/t.git"
+  },
+  "dependencies": {
+    "coffee-script-redux": "*",
+    "datejs": "*",
+    "express": "*",
+    "mongodb": "*"
+  },
+  "engines": {
+    "node": "0.10"
+  }
+}
