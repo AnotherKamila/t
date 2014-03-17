@@ -16,3 +16,5 @@ So far:
 
 Parsing:
 task text can contain `@location` and multiple `#tags` anywhere, and a human-readable due date either at the beginning or at the end. For example "next wed homework 02 #code #java @home" will be parsed as `{ text: "homework 02", date: "2014-03-20T00:00:00.000Z", tags: [ 'code' , 'java' ], loc: "home" }`. Parsing is not bug-free, will never be unambiguous and will generally suck, unless it won't.
+
+License: MIT
